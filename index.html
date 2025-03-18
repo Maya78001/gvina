@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>הוויזואליזציה הראשונה שלי</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #666;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #007BFF;
+            color: white;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            color: white;
+            background: #007BFF;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>הוויזואליזציה הראשונה שלי</h1>
+        <h2>פרויקט שאפתני ב-Tableau</h2>
+        <p>פרויקט זה מציג נתונים באמצעות מערכת Tableau בצורה מקצועית ומפורטת.</p>
+        
+        <h2>נתונים לדוגמה</h2>
+        <table>
+            <tr>
+                <th>שם</th>
+                <th>קטגוריה</th>
+                <th>שווי</th>
+            </tr>
+            <tr>
+                <td>עסק 1</td>
+                <td>מסעדות</td>
+                <td>100,000 ₪</td>
+            </tr>
+            <tr>
+                <td>עסק 2</td>
+                <td>ביוטי</td>
+                <td>75,000 ₪</td>
+            </tr>
+        </table>
+        
+        <h2>וויזואליזציה ב-Tableau</h2>
+        <div class='tableauPlaceholder' id='viz1742325783792' style='position: relative'>
+            <noscript>
+                <a href='#'><img alt='Dashboard 1 ' src='https://public.tableau.com/static/images/C3/C3642KD6N/1_rss.png' style='border: none' /></a>
+            </noscript>
+            <object class='tableauViz' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='path' value='shared&#47;C3642KD6N' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https://public.tableau.com/static/images/C3/C3642KD6N/1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-US' />
+                <param name='filter' value='publish=yes' />
+            </object>
+        </div>
+        <script type='text/javascript'>
+            var divElement = document.getElementById('viz1742325783792');
+            var vizElement = divElement.getElementsByTagName('object')[0];
+            vizElement.style.width = '100%';
+            vizElement.style.height = '600px';
+            var scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+    </div>
+</body>
+</html>
